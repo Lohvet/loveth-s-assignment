@@ -1,0 +1,562 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.first{
+    background-image: linear-gradient(rgba(47, 62, 117, 0.95), rgba(47, 62, 117, 0.95)),url(images/TopBg5b-scaled.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 165vh;
+    width: 100%;
+}
+.first-container{
+    padding-top: 60px;
+}
+.second{
+    background-color: rgb(29, 35, 87);
+    max-width: 120vh;
+    margin: -10px auto 20px;
+    border-radius: 40px;
+}
+.third{
+    padding: 18px 22px;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+.fifth{
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 42px;
+    font-weight: 500;
+}
+.seventh p{
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 23px;
+    line-height: 1.8em;
+    font-weight: 500;
+}
+.eigth{
+    padding-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17.6px;
+    line-height: 1.85em;
+}
+.ninth{
+    display: inline-block;
+}
+.tenth{
+    display: inline-block;
+    vertical-align: top;
+}
+.ninth li{
+    text-align: left;
+    padding: 6px;
+    list-style-type: circle;
+
+}
+.tenth li{
+    text-align: left;
+    padding: 6px;
+    list-style-type: circle;
+}
+li::marker{
+    color: orangered;
+    font-size: 30px;
+}
+.branch{
+    background-color: rgb(47, 62, 117);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+.giveon{
+    padding-top: 30px;
+}
+.gla{
+    background-image: linear-gradient(rgb(243, 248, 254), rgb(243, 248, 254));
+    width: 100%;
+    height: auto;
+}
+.giveol{
+    padding-top: 10vw;
+}
+.giveol h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+}
+.giveon h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+}
+.big{
+    padding-top: 62px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.lety{
+    display: inline-block;
+    width: 480px;
+    height: auto;
+    background-color: white;
+    padding: 19px;
+    margin-right: 28px;
+}
+.lite{
+    display: inline-block;
+    vertical-align: top;
+    width: 480px;
+    height: auto;
+    background-color: white;
+    padding: 19px;
+}
+.still p{
+    font-size: 26px;
+    line-height: 1.25em;
+}
+.lipe p{
+    text-align: left;
+    color: rgb(47, 62, 117);
+    font-size: 18px;
+    line-height: 1.95em;
+}
+.zobe p{
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 100px;
+}
+.zobe{
+    display: inline-block;
+}
+.last{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 75px;
+}
+.last img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 6px solid rgb(210, 216, 228);
+}
+.lodo{
+    padding-top: 50px;
+    padding-bottom: 65px;
+}
+.loda{
+    padding-bottom: 35px;
+}
+.lody{
+    padding-top: 50px;
+}
+.lode{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.begin h2{
+    font-size: 23px;
+}
+.melo h2{
+    font-size: 18px;
+}
+.lip h2{
+    font-size: 15px;
+}
+.button-tag{
+    padding-top: 25px;
+}
+button{
+    width: 600px;
+    border: none;
+    border-radius: 40px;
+    padding: 20px 5px 20px;
+    background-color: rgb(255, 95, 64);
+    transition: all 0.3s linear;
+}
+button:hover{
+    background-color: rgb(255, 99, 67);
+}
+.button1{
+    width: 600px;
+    border: none;
+    border-radius: 40px;
+    padding: 20px 5px 20px;
+    background-color: rgb(54, 115, 19);
+    transition: all 0.3s linear;
+}
+.button1:hover{
+    background-color: rgb(25, 96, 44);
+}
+a{
+    text-decoration: none;
+}
+.bin{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+.bag{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    padding-left: 10px;
+}
+.middle-container{
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+}
+.vast{
+    padding-top: 45px;
+}
+.vew{
+    font-size: 33px;
+    font-weight: lighter;
+    color: rgb(34, 33, 33);
+}
+.van{
+    color: rgb(23, 27, 56);
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 1.58em;
+}
+.compact{
+    padding-top: 35px;
+    padding-bottom: 50px;
+}
+.one-compact{
+    display: inline-block;
+    width: 480px;
+    height: auto;
+    background-color: white;
+    box-shadow: 2px 2px 6px 4px #cecccc;
+    border-radius: 6px;
+    padding: 19px;
+    margin-right: 28px;
+}
+.two-compact{
+    display: inline-block;
+    vertical-align: top;
+    width: 480px;
+    height: auto;
+    background-color: white;
+    box-shadow: 2px 2px 6px 4px #cecccc;
+    border-radius: 6px;
+    padding: 19px;
+}
+.pre{
+    padding-top: 95px;
+}
+.pro{
+    padding-top: 70px;
+}
+.all{
+    color: rgb(47, 62, 117);
+    font-weight: lighter;
+    font-size: 26px;
+}
+.trio{
+    background-color: rgb(47, 62, 117);
+    width: 100%;
+    height: auto;
+}
+.thy{
+    padding-top: 55px;
+    padding-bottom: 50px;
+}
+.thm{
+    padding-top: 8vw;
+    padding-bottom: 7vw;
+}
+.will{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.45em;
+}
+.dior{
+    padding-top: 54px;
+}
+.rop{
+    display: inline-block;
+    text-align: left;
+    padding-top: 4vw;
+    color: rgb(255, 255, 255);
+    margin-right: 28px;
+}
+.row{
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    padding-top: 3vw;
+    color: rgb(255, 255, 255);
+    margin-right: 80px
+}
+.wall{
+    display: inline-block;
+    margin-top: -38px;
+}
+.wop{
+    display: inline-block;
+    vertical-align: top;
+}
+.hop{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 19px;
+}
+.foc{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+}
+.pey{
+    background-color: rgb(42, 54, 101);
+    width: 100%;
+    height: auto;
+}
+.wap{
+    display: inline-block;
+}
+.goy{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 4vw;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    margin-left: 30px;
+}
+.hot{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 19px;
+    margin-right: 6vw;
+}
+.holl{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 19px;
+    margin-right: 1vw;
+}
+.holp{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 19px;
+    margin-right: 1.6vw;
+}
+.holy{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 19px;
+    margin-right: 1.8vw;
+}
+.holk{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 19px;
+    margin-left: 1vw;
+}
+.bull{
+    background-image: url(https://localagencybox.com/wp-content/uploads/2020/10/bg22.png), linear-gradient(rgb(47, 62, 117), rgb(47, 62, 117));
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+}
+.pic{
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+.spa{
+    padding: 5px;
+    outline: 1px solid rgb(231, 222, 222);
+    border-radius: 1px;
+}
+.bill{
+    display: inline-block;
+    margin-right: 2vw;
+}
+.dell{
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+.aye{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    line-height: 1.65em;
+}
+.rin{
+    display: inline-block;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;    
+}
+.pro p{
+    color: rgb(42, 54, 101);
+}
+.sep{
+    padding-top: 20px;
+}
+.mail{
+    background-image: linear-gradient(rgba(47, 62, 117, 0.95), rgba(47, 62, 117, 0.95)),url(images/TopBg5b-scaled.jpg);
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 110vh;
+    width: 100%;
+}
+.pop{
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    letter-spacing: 0.5;
+}
+.polp{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    letter-spacing: 0.6vw;
+}
+.hey{
+    color: rgb(255, 255, 255);
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 1.45em;
+}
+.vop{
+    color: white;
+    font-size: 21px;
+    font-weight: 800;
+}
+.ton{
+    width: 180px;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 5px 12px;
+    background-color: rgb(255, 95, 64);
+}
+.how{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+}
+.go{
+    margin-top: -46px;
+}
+.girl{
+    background-image: linear-gradient(rgb(243, 243, 249), rgb(243, 243, 249));
+    width: 100%;
+    height: auto;
+}
+.amb{
+    color: rgb(30, 33, 46);
+    font-size: 25px;
+}
+.bov{
+    color: rgb(23, 27, 56);
+    font-size: 30px;
+}
+.blin{
+    color: rgb(23, 27, 56);
+    font-size: 30px;
+    line-height: 1.95em;
+}
+.pet{
+    display: inline-block;
+    margin-right: 10px;
+}
+.peh{
+    display: inline-block;
+    margin-right: 15px;
+    padding-top: 3vw;
+}
+.pah{
+    display: inline-block;
+    padding-top: 3vw;
+}
+.lor{
+    text-align: left;
+    padding-top: 3vw;
+}
+.kul{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 5vw;
+}
+.kuv{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 9vw;
+}
+.kug{
+    display: inline-block;
+    vertical-align: top;
+}
+.kub{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 44px;
+}
+.kob{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 14px;
+}
+.yea{
+    width: 250px;
+    border: none;
+    border-radius: 70px 2px;
+    padding: 20px 0px;
+    background-color: rgb(255, 95, 64);
+}
+.kip{
+    color: rgb(23, 27, 56);
+    font-size: 30px;
+    line-height: 1.55em;
+}
+.goa{
+    color: rgba(23, 27, 56, 0.99);
+    font-size: 20px;
+    line-height: 1.8em;
+}
+.gof{
+    color: rgba(23, 27, 56, 0.99);
+    font-size: 18.6px;
+    line-height: 1.7em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.diar{
+    background-color: white;
+    width: 100%;
+    height: auto;
+}
+.pur{
+    background-image: linear-gradient(rgba(23, 27, 56, 0.7), rgba(23, 27, 56, 0.7)), url(images/cusbg.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    width: 100%;
+    height: auto;
+}
+.kia{
+    color: white;
+    font-size: 30px;
+    line-height: 1.55em;
+}
+.goq{
+    color: white;
+    font-size: 18px;
+    line-height: 1.8em;
+}
+.las{
+    background-image: url(images/Bg11b.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+.pal{
+    background-image: url(https://localagencybox.com/wp-content/uploads/2020/10/video-bg-1.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.yut{
+    color: rgb(23, 27, 56);
+    font-size: 30px;
+    line-height: 2.2em;
+}
